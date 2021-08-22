@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="/home/administrator/Work/test-page/logo.png"
+   inkscape:export-xdpi="282.41068"
+   inkscape:export-ydpi="282.41068"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.3275577"
+     inkscape:cx="363.47113"
+     inkscape:cy="126.09784"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient34663">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop34659" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop34661" />
+    </linearGradient>
+    <font
+       horiz-adv-x="1024"
+       id="font8930"
+       inkscape:label="шрифт 1">
+      <font-face
+         units-per-em="1024"
+         id="font-face8932"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph8934" />
+    </font>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient34663"
+       id="linearGradient34665"
+       x1="67.476845"
+       y1="40.341217"
+       x2="76.650864"
+       y2="36.398762"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:8.45094;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="59.771263"
+       y="42.077583"
+       id="text14012" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:url(#linearGradient34665);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.116814"
+       y="40.486046"
+       id="text17719"
+       inkscape:export-filename="/home/administrator/text17719.png"
+       inkscape:export-xdpi="1756.4652"
+       inkscape:export-ydpi="1756.4652"><tspan
+         sodipodi:role="line"
+         id="tspan17717"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';fill:url(#linearGradient34665);fill-opacity:1;stroke-width:0.264583"
+         x="66.116814"
+         y="40.486046">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:3.50699;stroke-width:0.264583"
+       x="77.318016"
+       y="38.421616"
+       id="text39294" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="72.071526"
+       y="37.164486"
+       id="text54114"><tspan
+         sodipodi:role="line"
+         id="tspan54112"
+         style="stroke-width:0.264583"
+         x="72.071526"
+         y="37.164486" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="75.661491"
+       y="36.943447"
+       id="text10965"><tspan
+         sodipodi:role="line"
+         id="tspan10963"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif Italic';stroke-width:0.264583"
+         x="75.661491"
+         y="36.943447">Independed source-based distribution</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Слой 2">
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="69.709297"
+       y="36.723282"
+       id="text69263"><tspan
+         sodipodi:role="line"
+         id="tspan69261"
+         style="stroke-width:0.264583"
+         x="69.709297"
+         y="36.723282">linux</tspan></text>
+  </g>
+</svg>
