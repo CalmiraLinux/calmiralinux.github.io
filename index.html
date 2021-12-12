@@ -1,224 +1,41 @@
-<!DOCTYPE html>
-<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>CalmiraLinux - домашняя страница | CalmiraLinux - home page</title>
-<meta name="generator" content="Jekyll v3.9.0">
-<meta property="og:title" content="CalmiraLinux">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="Calmira GNU/Linux - независимый source-based дистрибутив Linux, следующий принципу KISS.">
-<meta property="og:description" content="Calmira GNU/Linux - независимый source-based дистрибутив Linux, следующий принципу KISS.">
-<link rel="canonical" href="https://calmiralinux.github.io/CalmiraLinux/">
-<meta property="og:url" content="https://calmiralinux.github.io/CalmiraLinux/">
-<meta property="og:site_name" content="CalmiraLinux">
-<meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="CalmiraLinux">
-<script type="application/ld+json">
-  {
-    "headline":"CalmiraLinux",
-    "description":"Calmira GNU/Linux - независимый source-based дистрибутив Linux, следующий принципу KISS.",
-    "url":"https://calmiralinux.github.io/CalmiraLinux/",
-    "@type":"WebSite",
-    "name":"CalmiraLinux",
-    "@context":"https://schema.org"
-  }
-</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
-    <link rel="preload" href="css/home" as="style" type="text/css" crossorigin="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="css/home/style.css">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-
-
+<!DOCTYPE htm>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calmira GNU/Linux - The Universal Operating System</title>
   </head>
+  <link href="css/master.css" rel="stylesheet">
   <body>
-    <a id="skip-to-content" href="https://calmiralinux.github.io/CalmiraLinux/#content">Skip to the content.</a>
+    <h1><img src="pic/logo.png" alt="CalmiraLinux logo">Calmira GNU/Linux - the universal operating system</h1><hr>
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">CalmiraLinux</h1>
-      <h2 class="project-tagline">Calmira GNU/Linux - независимый source-based дистрибутив Linux, следующий принципу KISS.</h2>
-		
-		<a href="docs/about.html" class="btn">О дистрибутиве</a>
-		<a href="docs/index.html" class="btn">Раздел документации</a>
-		<a href="docs/installation/download.html" class="btn">Скачивание дистрибутива</a>
-		<a href="https://github.com/CalmiraLinux/CalmiraLinux/releases" class="btn">Раздел загрузок</a>
-		<a href="docs/about.html" class="btn">О дистрибутиве</a>
-		<a href="https://calmiralinux.github.io/CalmiraLinux/CHANGELOG.html" class="btn">Список изменений на сегодня</a>
-		<a href="https://github.com/CalmiraLinux/CalmiraLinux/issues" class="btn">Раздел вопросов и баг-репортов</a>
-		
-    </header>
-
-    <main id="content" class="main-content" role="main">
-
-<h1 id="calmira-gnulinux">Домашняя страница дистрибутива</h1>
-
-<h2>Введение</h2>
-
-<p>Это легковесный независимый дистрибутив со своей пакетной базой.
-Пакетный менеджер <code class="language-plaintext highlighter-rouge">cpkg</code>, пришедший на смену менее надёжному и простому <code class="language-plaintext highlighter-rouge">cpkg-tools</code>, находится пока в зачаточном состоянии. Название “Calmira” дано в честь одноимённой графической оболочки для Win3.11.</p>
-
-<p align="center"><img src="./pic/screen.png" alt="Скриншот"></p>
-
-<p><em>Рис.1: Информация о дистрибутиве</em></p>
-
-<p>Главная особенность дистрибутива - его малый размер и неприхотливость. Для работы ему будет достаточно процессора Intel Atom, оперативной памяти объёмом от 30 Мб и жёсткого диска от 2-3 Гб.</p>
-
-<p>Пакетный менеджер <code class="language-plaintext highlighter-rouge">cpkg</code> (релиз Calmira 2021.2), пришедший на смену <code class="language-plaintext highlighter-rouge">cpkg-tools</code> из релиза Calmira 2021.1, содержит множество изменений. Тут и более стабильная работа, и хорошая работа с зависимостями, а так же меньшая разрозненность. Установка и удаление ПО теперь следует одним и тем же правилам.</p>
-
-<h2 id="идеология">Идеология</h2>
-<p>Дистрибутив старается следовать стандартам FHS и LSB в первую очередь. Помимо этого, дистрибутив “проповедует” KISS. В Calmira всё решает пользователь. Как ставить, куда ставить и что ставить. Как пользоваться дистрибутивом. Так же вы можете без каких-либо проблем делать сборки на основе Calmira - для этого предоставляется кросс-компилятор и временный инструментарий (https://github.com/Linuxoid85/CalmiraLinux/releases).</p>
-
-<p>В ней используется необходимый минимум программного обеспечения. Вместо системы инициализации <code class="language-plaintext highlighter-rouge">systemd</code> используется классическая <code class="language-plaintext highlighter-rouge">sysvinit</code>. Не потому что продукция от RedHat нам не нравится (даже наоборот - очень нравится), но у <code class="language-plaintext highlighter-rouge">systemd</code> несколько недостатоков: более большое число зависимостей и большой вес инита.</p>
-
-<p>Исходный код компонентов Calmira от её разработчиков распространяется под лицензией GNU GPLv3 и Calmira Public License. Лицензия форков не изменена.</p>
-
-<h2 id="документация">Документация</h2>
-
-<p>Раздел с документацией к дистрибутиву доступен <a href="https://calmiralinux.github.io/CalmiraLinux/docs/index.html">здесь</a>. В нём описан процесс установки дистрибутива из sqsh, подготовка LiveCD/LiveUSB и последующая установка с них, либо же подготовка образа жёсткого диска для Qemu/KVM (<code class="language-plaintext highlighter-rouge">qcow2</code>). Так же описан процесс сборки ПО из исходного кода и пересборка ядра системы.</p>
-
-<h2 id="релизы">Релизы</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Релиз</th>
-      <th style="text-align: center">Кодовое имя</th>
-      <th style="text-align: left">Изменения</th>
-      <th style="text-align: center">Дата выхода</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">2021.1</td>
-      <td style="text-align: center">Orion</td>
-      <td style="text-align: left">Initial Release</td>
-      <td style="text-align: center">28.05.2021</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">2021.2</td>
-      <td style="text-align: center">Andromeda</td>
-      <td style="text-align: left">замена <code class="language-plaintext highlighter-rouge">cpkg-tools</code> на <code class="language-plaintext highlighter-rouge">cpkg</code>, пересборка <code class="language-plaintext highlighter-rouge">gmp</code>, добавление новых функций</td>
-      <td style="text-align: center">28.05.2021</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">2021.3</td>
-      <td style="text-align: center">Andromeda</td>
-      <td style="text-align: left">добавление в пакетный менеджер <code class="language-plaintext highlighter-rouge">cpkg</code> новых фукций, таких как сборка пакета из исходников, очистка кеша, скачивание пакета из исходных текстов; повышение стабильности как пакетного менеджера, так и дистрибутива в целом</td>
-      <td style="text-align: center">15.06.2021</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">LX4 1.0</td>
-      <td style="text-align: center">Cassiopeia (RC), Orion (Stable Release)</td>
-      <td style="text-align: left">переход на LX4 версии 1.1-1.2, добавление опциональных бинарных пакетов, повышение стабильности, удаление пакетного менеджера <code class="language-plaintext highlighter-rouge">cpkg</code></td>
-      <td style="text-align: center">05.07.2021</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">LX4 1.1</td>
-      <td style="text-align: center">Aquarius</td>
-      <td style="text-align: left">добавление системы портов, обновление до LX4 1.3, возвращение <code class="language-plaintext highlighter-rouge">cpkg</code> в поставку дистрибутива</td>
-      <td style="text-align: center">Запланировано на 15.11.2021</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="системные-требования">Системные требования</h2>
-
-<h3 id="минимальные">Минимальные</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Пункт</th>
-      <th style="text-align: left">Значение</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ОЗУ</td>
-      <td style="text-align: left">55 Мб</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ЦП</td>
-      <td style="text-align: left">Uknown Intel x86_64 &gt;= 800 ГГц</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Место на жёстком диске</td>
-      <td style="text-align: left">1.5 Гб</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="рекомендуемые">Рекомендуемые</h3>
-
-<table width="100%">
-  <thead>
-    <tr>
-      <th style="text-align: left">Пункт</th>
-      <th style="text-align: left">Значение</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ОЗУ</td>
-      <td style="text-align: left">80-100 Мб</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ЦП</td>
-      <td style="text-align: left">Uknown Intel x86_64 &gt;= 1 ГГц</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Место на жёстком диске</td>
-      <td style="text-align: left">1.5 Гб</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Как вы могли заметить, Calmir’е важен объём оперативной памяти. Хотя работать она может и с куда меньшими:</p>
-
-<p align="center"><img src="./pic/calm_ram.png" alt="Потребление"></p>
-
-<p><em>Рис.2: тестовая версия Calmira LX4 1.1 запущена в qemu.</em></p>
-
-<p>На скриншоте выше хорошо видно, что система потребляет 13 Мб оперативной памяти, что на 2021 год - очень ничтожно. А ведь это полностью рабочая система, умеющая редактирвоать файлы, работать с архивами, скачивать файлы из интернета, работать с репозиториями git и многое другое!</p>
-
-<blockquote>
-  <p><strong>Пометка</strong>. Данные приблизительные. В зависимости от железа ПК они могут разниться. Так, например, на ноутбуке Samsung NP300E5C с 8 Гб ОЗУ система потребляет уже 36 Мб ОЗУ.</p>
-</blockquote>
-
-<p>Однако не стоит считать, что эта система заработает на <strong>очень</strong> старом железе. Во-первых, при сборке некоторого ПО может возникать ошибка вроде <code class="language-plaintext highlighter-rouge">Illegal Instruction</code>, прерывающая процесс сборки. Это может возникать на старых ЦП Intel/AMD до 2005 года. Так же эта система собирается только для архитектуры x86_64/ Работать будет на процессоре 64 бит, на 32-ух битном ЦП попросту не заработает.</p>
-
-<h2 id="todo">TODO</h2>
-
-<fieldset>
-  <div>
-    <input type="checkbox" id="site" name="todo" value="move_site" checked>
-    <label for="move_site">Перенос сайта в отдельный репозиторий</label>
-  </div>
-  <div>
-    <input type="checkbox" id="docs" name="todo" value="move_docs" checked>
-    <label for="move_docs">Дублирование документации в репозиторий с сайтом</label>
-  </div>
-  <div>
-  	<input type="checkbox" id="iso" name="todo" value="iso_img">
-  	<label for="iso_img">Создание загрузочного iso/img образа системы</label>
-  </div>
-  <div>
-  	<input type="checkbox" id="site" name="todo" value="design">
-  	<label for="design">Редизайн сайта</label>
-  </div>
-</fieldset>
-
-<h2 id="контакты">Контакты</h2>
-<ul>
-  <li>E-mail разработчика: <a href="mailto:linuxoid85@gmail.com">linuxoid85@gmail.com</a></li>
-  <li>Разработчик ВКонтакте: <a href="https://vk.com/linuxoid85">@linuxoid85</a></li>
-</ul>
-
-<p><strong>НАМ ТРЕБУЮТСЯ ДИЗАЙНЕРЫ!</strong> О подробностях писать пользователю @linuxoid85.</p>
-
-</body></html>
+    <p>Calmira GNU/Linux is a general purpose Linux distribution. It focuses on low consumption of PC resources and providing the user with the most customizable environment.</p>
+    
+    <p>It is a powerful UNIX-compatible system. Now it supports the x86_64 architecture, but soon Multilib support and a separate edition supporting the 32-bit architecture will be added to the distribution.</p>
+    
+    <p>Calmira GNU/Linux uses the Linux kernel and includes several basic packages, including some of the GNU programs, the Vim text editor, the Links browser, and more. All software is distributed in ports - a file with instructions for building the package. Anyone can create their own ports and even upload them to the port system repository so that they are available together with the distribution (or as part of it).</p>
+    
+    <hr>
+    
+    <h2>Calmira GNU/Linux Resources</h2>
+    
+    <ul>
+      <li><a href="https://calmiralinux.github.io/handbook/site/index.html">Calmira Documentation Portal (Russian)</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="donations.html">Donations</a></li>
+      <li><a href="download.html">Get Calmira GNU/Linux</a></li>
+    </ul>
+    
+    <h2>Screenshots</h2>
+    
+    <p align="center"><img src="pic/screen1.png"></p>
+    <p align="center">After login</p>
+    
+    <p align="center"><img src="pic/screen2.png"></p>
+    <p align="center">Information about the system assembly and its consumption of PC resources</p>
+      
+      <hr>
+      <small>
+      Please send questions and inquiries to <a href="mailto:linuxoid85@gmail.com">linuxoid85@gmail.com</a>
+      </small>
+  </body>
+</html>
