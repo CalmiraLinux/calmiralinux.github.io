@@ -12,7 +12,7 @@
     
     <p>It is a powerful UNIX-compatible system. Now it supports the x86_64 architecture, but soon Multilib support and a separate edition supporting the 32-bit architecture will be added to the distribution.</p>
     
-    <p>Calmira GNU/Linux uses the Linux kernel and includes several basic packages, including some of the GNU programs, the Vim text editor, the Links browser, and more. All software is distributed in ports - a file with instructions for building the package. Anyone can create their own ports and even upload them to the port system repository so that they are available together with the distribution (or as part of it).</p>
+    <p>Calmira GNU/Linux uses the Linux (LX4 1.1 version) and Linux-libre (LX4 1.2 version) kernel and includes several basic packages, including some of the GNU programs, the Vim text editor, the Links browser, and more. All software is distributed in ports - a file with instructions for building the package. Anyone can create their own ports and even upload them to the port system repository so that they are available together with the distribution (or as part of it).</p>
     
     <hr>
     
@@ -33,6 +33,13 @@
     
     <p align="center"><img src="pic/screen2.png"></p>
     <p align="center">Information about the system assembly and its consumption of PC resources</p>
+    
+    <h2>Disadvantages:</h2>
+
+    <ul>
+      <li><b>Lack of a large number of supported software.</b> Unfortunately, only one person is involved in the Calmira GNU/Linux distribution, so it is physically impossible to deal with the system and test any additional software.</li>
+      <li><b>Immaturity of software management utilities.</b> Once there was a <a href="https://github.com/CalmiraLinux/cpkg"><tt>cpkg</tt></a> package manager, but it was not very stable, and the system moved away from the package model of software distribution. But I (the developer of the distribution) can please: a new <a href="https://github.com/CalmiraLinux/cport"><tt>cport</tt></a> utility is being prepared with a lot of functions for software management. It will be included in the final versions of Calmira GNU/Linux-libre 1.2.</li>
+    </ul>
       
       <hr>
       <small>
